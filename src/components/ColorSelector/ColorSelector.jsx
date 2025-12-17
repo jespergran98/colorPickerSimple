@@ -3,8 +3,7 @@ import './ColorSelector.css';
 
 const colors = ['#FF5733', '#33FF57', '#3357FF', '#F333FF', '#FFD700'];
 
-export default function ColorSelector() {
-  const [selectedColor, setSelectedColor] = useState(colors[0]);
+export default function ColorSelector({ selectedColor, onColorChange }) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -23,7 +22,7 @@ export default function ColorSelector() {
               key={color}
               style={{ backgroundColor: color }}
               onClick={() => {
-                setSelectedColor(color);
+                onColorChange(color);
                 setIsOpen(false);
               }}
             >
