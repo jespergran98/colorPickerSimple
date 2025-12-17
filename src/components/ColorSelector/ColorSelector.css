@@ -1,0 +1,27 @@
+.color-selector {
+  position: relative;
+}
+
+.color-selector button {
+  padding: 10px 20px;
+  border: 1px solid #000;
+  cursor: pointer;
+  color: white;
+}
+
+.dropdown {
+  position: absolute;
+  background: white;
+  border: 1px solid #000;
+  margin-top: 5px;
+}
+
+.dropdown div {
+  padding: 10px 20px;
+  cursor: pointer;
+  color: white;
+}
+
+.dropdown div:hover {
+  opacity: 0.8;
+}

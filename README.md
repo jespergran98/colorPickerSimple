@@ -1,3 +1,11 @@
+Idé:
+
+Nettsiden viser en colorSelector på venstre side, der brukeren kan velge mellom 4 forskjellige farger. colorSelector er en knapp som viser en farge, og når knappen trykkes vises en dropdown der brukeren kan velge mellom 5 farger.
+
+Nettsiden har en colorBox på høyre side som består av en tittel og en bakgrunn.
+
+Når brukeren endrer fargen i color box oppdaterer tittelen farge.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
