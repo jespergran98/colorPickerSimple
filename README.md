@@ -2,9 +2,9 @@ Idé:
 
 Nettsiden viser en colorSelector på venstre side, der brukeren kan velge mellom 4 forskjellige farger. colorSelector er en knapp som viser en farge, og når knappen trykkes vises en dropdown der brukeren kan velge mellom 5 farger.
 
-Nettsiden har en colorBox på høyre side som består av en tittel og en bakgrunn.
+Nettsiden har en colorBox på høyre side som består av en farge.
 
-Når brukeren endrer fargen i color box oppdaterer tittelen farge.
+Når brukeren endrer fargen i color box oppdaterer boksen farge.
 
 # React + Vite
 
