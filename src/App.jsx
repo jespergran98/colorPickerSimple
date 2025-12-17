@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Color Selector</h1>
+      <h1>Velg en farge!</h1>
       <ColorSelector 
         selectedColor={selectedColor}
         onColorChange={setSelectedColor}
